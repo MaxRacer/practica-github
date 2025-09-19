@@ -1,0 +1,9 @@
+#Programa que calcule dos operandos con los 7 operadores vistos en clase. ¿Cómo puedes 
+#forzar que el resultado de la división tenga 2 decimales?
+number1=float(input("Introduce un número"))
+number2=float(input("Introduce otro número"))
+total_suma=number1+number2
+total_resta=number1-number2
+total_multiplicación=number1*number2
+total_división=number1/number2
+división_
