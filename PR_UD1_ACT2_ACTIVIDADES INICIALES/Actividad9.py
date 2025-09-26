@@ -1,4 +1,4 @@
-#Programa que pida los segundos y muestre por pantalla y en la misma frase 
+# Programa que pida los segundos y muestre por pantalla y en la misma frase 
 # los minutos y las horas
 var1=float(input("Introduce un número de segundos"))
 total_horas=var1/3600

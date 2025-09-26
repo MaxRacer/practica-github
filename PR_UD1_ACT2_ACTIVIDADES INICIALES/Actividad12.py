@@ -1,4 +1,4 @@
-#Realiza un programa que, introduciendo en los valores de lado, base menor, base mayor
+# Realiza un programa que, introduciendo en los valores de lado, base menor, base mayor
 # y altura de un trapecio isósceles, nos devuelva por pantalla en el área y el perímetro.
 print("A continuación introducirás los valores de un trapecio isósceles")
 lado=float(input("Introduce el valor del lado"))
