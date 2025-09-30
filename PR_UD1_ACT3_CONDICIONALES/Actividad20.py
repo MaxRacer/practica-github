@@ -2,11 +2,11 @@
 # números entre 0 y 10
 num1=float(input("Introduce un número entre el 1-10"))
 num2=float(input("Introduce otro número entre el 1-10"))
-if num1 and num2 > 10:
-    print("Uno o los dos números están fuera de los límites establecidos")
 
 if num1 > num2:
     print(f"El {num1} es el mayor y el {num2} es el menor")
+elif num1 and num2 >10:
+    print("Uno o los dos números están fuera de los límites establecidos")
 else:
     if num1 < num2:
        print(f"El {num2} es el mayor y el {num1} es el menor")
