@@ -1,7 +1,6 @@
 #Repite el programa número 23 pero en esta ocasión utilizando operadores lógicos.
 #Falta poner los operadores lógicos
 nota=float(input("Introduce la nota que has sacado: "))
-
 if nota >= 8.5 and nota <= 10:
     print(f"Tu nota es {nota}, excelente")
 elif nota >= 7 and nota < 8.5:
