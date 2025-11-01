@@ -58,7 +58,7 @@ else:
     else:
         print("Error en el carácter 4")
         errores += 1  
-    # posición 5
+    # posición 4
     posicion4=password[4]
     if posicion4.isalpha():
         password_correcta=True
@@ -70,7 +70,7 @@ else:
     else:
         print("Error en el carácter 5")
         errores += 1   
-    # posición 6
+    # posición 5
     posicion5 = password[5]
     if posicion5.isnumeric:
         if 6 <= int(posicion5) <= 9:
@@ -81,15 +81,15 @@ else:
     else:  
         print("Error en el carácter 6")  
         errores += 1 
-    # Posición 7 
+    # Posición 6
     if len(password) >= 7:  
         if password[6] == "&" or password[6] == "/" or password[6] == "#":  
             password_correcta=True  
         else:  
             print("Error en el carácter 7")  
             errores += 1   
-    # Posición 8  
-    if len(password) == 8: 
+    # Posición 7
+    if len(password) == 7: 
         if password[7].isnumeric():  
             if int(password[7]) <= 5:  
                 password_correcta=True 
