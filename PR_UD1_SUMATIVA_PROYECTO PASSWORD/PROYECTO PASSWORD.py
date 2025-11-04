@@ -12,7 +12,6 @@ print("     Posición 8: Un número menor o igual que 5")
 # pedir al usuario la contraseña  
 password = input("Introduzca una password entre 6-8 caracteres: ")  
 caracteres = len(password)  
- 
 # ver si cumple lo mínimo y máximo de caracteres  
 if len(password) < 6 or len(password) > 8:  
     print(f"Error, el password tiene una longitud de {caracteres} caracteres y no cumple los requisitos")  
