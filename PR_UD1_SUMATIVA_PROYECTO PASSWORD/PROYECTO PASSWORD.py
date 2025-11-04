@@ -1,116 +1,105 @@
-print("INSTRUCCIONES")
-print("1. La longitud del password tiene que tener entre 6 y 8 caracteres")
-print("2. Forzar los siguientes valores según la posición indicada:")
-print("     Posición 1 Un número major o igual que 1 i menor o igual que 5")
-print("     Posición 2 Una letra minúscula")
-print("     Posición 3 Una letra mayúscula")
-print("     Posición 4 Uno de los siguientes símbolos *, _, @")
-print("     Posición 5 Una letra minúscula")
-print("     Posición 6 Un número mayor o igual que 6 y menor o igual que 9")
-print("     Posició 7 Uno de los siguientes símbolos &, /, #")
-print("     Posició 8 Un número menor o igual que 5")
-password=input("Introduce una password: ")
-errores=0
-#medimos longitud password
-caracteres=len(password)
-#primer condicional para medir ver si cumple el mínimo y el máximo de caracteres
-if not len(password)>=6 or not len(password)<=8:
-    print(f"ERROR, la contraseña tiene {caracteres} caracteres, lo cual no es viable.")
-else:
-    caracter1=(password[0])
-    if caracter1.isnumeric():
-        if 1<=int(caracter1) and 5>=int(caracter1):
+errores = 0  
+# requisitos  
+print("INTRODUCCIÓN")  
+print("     Posición 1: Un número mayor o igual 1 y menor o igual que 5")  
+print("     Posición 2: Una letra minúscula")  
+print("     Posición 3: Una letra minúscula")  
+print("     Posición 4: Uno de estos símbolos: *, _, @")  
+print("     Posición 5: Una letra minúscula")  
+print("     Posición 6: Un número mayor o igual 6 y menor o igual que 9")  
+print("     Posición 7: Uno de estos símbolos: &, /, #")  
+print("     Posición 8: Un número menor o igual que 5")  
+# pedir al usuario la contraseña  
+password = input("Introduzca una password entre 6-8 caracteres: ")  
+caracteres = len(password)  
+ 
+# ver si cumple lo mínimo y máximo de caracteres  
+if len(password) < 6 or len(password) > 8:  
+    print(f"Error, el password tiene una longitud de {caracteres} caracteres y no cumple los requisitos")  
+else:  
+    # posición 0  
+    posicion0 = password[0]
+    if posicion0.isnumeric():
+        if 1 <= int(posicion0) <= 5:
             password_correcta=True
         else:
-            print("ERROR en el caracter 1")
-            errores=errores+1
-    else:
-        print("ERROR en el caracter 1")
-        errores=errores+1
-    caracter2=(password[1])
-
-    if caracter2.isalpha():
-        if caracter2.islower():
+            print("Error en el carácter 1")
+            errores += 1        
+    else:  
+        print("Error en el carácter 1")  
+        errores += 1
+    # posición 1
+    posicion1=password[1]
+    if posicion1.isalpha():
+        password_correcta=True
+        if posicion1.islower():
             password_correcta=True
         else:
-            print("ERROR en el caracter 2")
-            errores=errores+1
+            print("Error en el carácter 2")
+            errores += 1  
     else:
-        print("ERROR en el caracter 2")
-        errores=errores+1
-
-    caracter3=(password[2])
-    if caracter3.isalpha():
-        if caracter3.isupper():
+        print("Error en el carácter 2")
+        errores += 1  
+    # posición 2
+    posicion2=password[2]
+    if posicion2.isalpha():
+        password_correcta=True
+        if posicion2.isupper():
             password_correcta=True
         else:
-            print("ERROR en el caracter 3")
-            errores=errores+1
+            print("Error en el carácter 3")
+            errores += 1  
     else:
-        print("ERROR en el caracter 3")
-
-    caracter4=(password[3])
-    if caracter4=="*" or caracter4=="_" or caracter4=="@":
+        print("Error en el carácter 3")
+        errores += 1  
+    #posición 3
+    if password[3] == "*" or password[3] == "_" or password[3] == "@":
         password_correcta=True
     else:
-        print("ERROR en el caracter 4")
-        errores=errores+1
-
-    caracter5=(password[4])
-    if caracter5.isalpha():
-        if caracter5.islower():
+        print("Error en el carácter 4")
+        errores += 1  
+    # posición 5
+    posicion4=password[4]
+    if posicion4.isalpha():
+        password_correcta=True
+        if posicion4.islower():
             password_correcta=True
         else:
-            print("ERROR en el caracter 5")
-            errores=errores+1
+            print("Error en el carácter 5")
+            errores += 1  
     else:
-        print("ERROR en el caracter 5")
-        errores=errores+1
-
-    caracter6=(password[5])
-    if caracter6.isnumeric():
-        if 6<=int(caracter6) and 9>=int(caracter6):
+        print("Error en el carácter 5")
+        errores += 1  
+    # posición 6
+    posicion5 = password[5]
+    if posicion5.isnumeric():
+        if 6 <= int(posicion5) <= 9:
             password_correcta=True
         else:
-            print("ERROR en el caracter 6")
-            errores=errores+1
-    else:
-        print("ERROR en el caracter 6")
-        errores=errores+1
-
-    if len(password)==6 and errores==0 and password_correcta==True:
-        print("El formato de password es correcto")  
-    elif len(password)==6 and errores>0:
-        print(f"La contraseña no es correcta. Tiene {errores} errores")
-
-    if len(password)>=7:
-        caracter7=(password[6])
-        if caracter7=="&" or caracter7=="/" or caracter7=="#":
-            password_correcta=True
-        else:
-            print("ERROR en el caracter 7")
-            errores=errores+1
-
-    if len(password)==7 and errores==0:
-        print("El formato de password es correcto")
-    elif len(password)==7 and errores>0:
-        print(f"La contraseña no es correcta. Tiene {errores} errores")
-
-    if len(password)==8:
-        caracter8=(password[7])
-        if caracter8.isnumeric():
-            if int(caracter8)<=5:
+            print("Error en el carácter 6")
+            errores += 1        
+    else:  
+        print("Error en el carácter 6")  
+        errores += 1
+    # Posición 7
+    if len(password) >= 7:  
+        if password[6] == "&" or password[6] == "/" or password[6] == "#":  
+            password_correcta=True  
+        else:  
+            print("Error en el carácter 7")  
+            errores += 1  
+    # Posición 8  
+    if len(password) == 8:
+        if password[7].isnumeric():  
+            if int(password[7]) <= 5:  
                 password_correcta=True
             else:
-                print("ERROR en el caracter 8")
-                errores=errores+1
-        else:
-            print("ERROR en el caracter 8")
-            errores=errores+1
-    if len(password)==8 and errores==0:
-        print("El formato de password es correcto")
-    elif len(password)==8 and errores>0:
-        print(f"La contraseña no es correcta. Tiene {errores} errores")
-
+                print("Error en el carácter 8")  
+                errores += 1      
+        else:  
+            print("Error en el carácter 8")  
+            errores += 1    
+    if errores==0 and password_correcta==True:
+        print("El formato de la PASSWORD es correcta")
 
 
