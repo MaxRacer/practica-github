@@ -8,7 +8,7 @@ for i in range(oportunidades):
     letra=input("Introduce una letra: ")
     if letra in palabra_secreta:
         if letra in palabra_secreta:
-            posicion=palabra_secreta.index(letra)
+            posicion=palabra_secreta.index(letra)+1
             print(f"La letra si existe: {letra} en la posición: {posicion}")
             oportunidades=oportunidades-1
             print(f"Te quedan: {oportunidades} oportunidades")
