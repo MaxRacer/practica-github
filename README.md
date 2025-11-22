@@ -12,4 +12,4 @@ Enunciados de los ejercicios del for bucles:
 
 2025-11-22
 
-# EOF
+[//]: # (EOF)
