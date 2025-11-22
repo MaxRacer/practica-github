@@ -1,4 +1,4 @@
-
+# Introducción
 Programa: hola_mundo
 Propósito
 El propósito de este programa es interactuar con el usuario para saber si le gusta Python y, si es así, hacerle una segunda pregunta sobre aprender programación. Y iniciarse en el mundo de la programación.
@@ -11,5 +11,6 @@ Máximo Arjona Porras
 Enunciados de los ejercicios del for bucles:
 
 2025-11-22
+
 
 [//]: # (EOF)
