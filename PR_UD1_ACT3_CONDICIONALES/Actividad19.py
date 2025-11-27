@@ -1,7 +1,7 @@
 #  Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son 
 # iguales
-num1=float(input("Introduce un número"))
-num2=float(input("Introduce otro número"))
+num1=float(input("Introduce un número: "))
+num2=float(input("Introduce otro número: "))
 
 if num1 > num2:
     print(f"El {num1} es el mayor y el {num2} es el menor")
