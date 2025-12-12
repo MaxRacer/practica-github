@@ -9,7 +9,7 @@ Autor: Máximo Arjona Porras
 
 
 # ENUNCIADOS:
-# Enunciados de PR_UD1_ACT2_ACTIVIDADES INICIALES:
+## Enunciados de PR_UD1_ACT2_ACTIVIDADES INICIALES:
 1. Programa que muestre por pantalla la frase “hello world”
 2. Programa que introduzca por teclado tres tipos de variables y se muestren por pantalla
 en el siguiente orden: número entero, texto y número decimal.
@@ -30,7 +30,7 @@ en el siguiente orden: número entero, texto y número decimal.
 17. Calcula el índice de masa corporal IMC de una persona, introduciendo por teclado el peso (en kg) y dividiendo por la estatura (en metros y elevado al cuadrado). Si el resultado es igual o superior a 25, debe aparecer un mensaje informando de sobrepeso.
 18. Cines Paradiso celebran su décimo aniversario y por ser un día especial realizan importantes descuentos. A los adultos se les aplicará un 10% de descuento y a los menores de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por teclado el número de menores y el número de adultos que asisten al cine.
 
-# Enunciados de PR_UD1_ACT3_CONDICIONALES
+## Enunciados de PR_UD1_ACT3_CONDICIONALES
 19. Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son iguales.
 20. A partir del ejercicio anterior, forzar que el usuario solo pueda introducir por teclados números entre 0 y 10.
 21. Programa que calcula una ecuación de segundo grado. Controla que el valor de la raíz cuadrada no de un valor negativo.
@@ -50,7 +50,7 @@ madruga
 33. Programa un código que permita contar el número de vocales de la siguiente frase: No hay mal que dure cien años.
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se ejecute correctamente.
 
-# Enunciados de PR_UD1_ACT4_BUCLES CON FOR
+## Enunciados de PR_UD1_ACT4_BUCLES CON FOR
 35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu nombre
 36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
 37. Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado o suspendido.
@@ -69,7 +69,7 @@ la secuencia en descenso. Respeta el formato de salida
 tenga x oportunidades para ver si letra introducida está en esa palabra.
 49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te indique en qué posición de la palabra se encuentra la letra.
 
-# Enunciados de PR_UD1_ACT4_BUCLES CON WHILE:
+### Enunciados de PR_UD1_ACT4_BUCLES CON WHILE:
 50. Realiza un programa que de los buenos días 3 veces. Con While
 Buenos días
 51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el número de veces que desea que repita la frase Buenos días. Con While.
@@ -104,7 +104,7 @@ BEBIDAS
 - Si el encargado introduce otro valor distinto a S o N, el programa debe repetir la pregunta e informar de que ha introducido un valor equivocado.
 - El lugar de almacenar los precios en variables, utiliza una biblioteca (busca información) e investiga como moverte por los índices.
 - Un pedido puede estar formado por 3, 2 o 1 componentes. Ej. Un usuario puede pedir únicamente una bebida.
-    # Ejercicios con Random. Empezaremos con ejercicios sencillos para entender el funcionamiento de esta librería y combinaremos con bucles.
+### Ejercicios con Random. Empezaremos con ejercicios sencillos para entender el funcionamiento de esta librería y combinaremos con bucles.
 57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa debe controlar si el usuario introduce un número no comprendido entre 1 y 5.
 58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while
 59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que intentemos adivinarlo. En cada intento, el programa nos dirá si el numero introducido es mayor o menor del correcto. No utilices break para salir del bucle. Cuando se acierte el número debe mostrarse por pantalla un mensaje y el número de intentos.
