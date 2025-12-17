@@ -63,4 +63,24 @@ print("RESULTADO FINAL")
 print("Passwords correctas:", passwords_correctas)
 print("Passwords incorrectas:", passwords_incorrectas)
 
-
+#TESTEOS
+#Testeo #1
+    #aB1*2&6c---Correcta
+#Testeo #2
+    #aB1*6---Incorrecta
+#Testeo #3
+    #abB126---Incorrecta
+#Testeo #4
+    #AB1*2&6---Incorrecta
+#Testeo #5
+    #ab1*2&6---Incorrecta
+#Testeo #6
+    #aB6*7&c---Incorrecta
+#Testeo #7
+    #aB1*2&c---Incorrecta
+#Testeo #8
+    #aB1!2?6---Incorrecta
+#Testeo #9
+    #abc123---Incorrecta
+#Testeo #10
+    #xY2@3#6a---Correcta
