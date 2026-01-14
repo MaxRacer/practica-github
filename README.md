@@ -121,3 +121,16 @@ e) total de ceros
 f) total de la suma de todos los números introducidos
 65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor -99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
 66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo se comporta el dado en lanzamientos producidos durante aprox 3 segundos.
+
+### Enunciados de PR_UD2_ACT2_LISTAS
+69.  Realiza un programa que permita introducir una cantidad exacta de números, cada número se 
+irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números 
+ordenados de menor a mayor
+70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez 
+introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por 
+pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente. Respeta el 
+formato de entrada y salida tal y como se muestra en el testeo
+71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en 
+esta lista no deben almacenarse las letras que se han introducido repetidas.
+72. A partir del ejercicio anterior, se da por hecho que las vocales con o sin acento son repetidas y 
+no deben almacenarse en la lista
