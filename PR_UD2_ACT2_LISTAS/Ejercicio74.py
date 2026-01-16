@@ -2,5 +2,15 @@
 # entre las 2 listas.
 lista1 = ["casa", "mesa", "sal", "sol", "agua"]
 lista2 = ["casa", "luz", "tres", "tren", "sol", "pan"]
-lista1.extend(lista2)
-print(lista1)
+repetidas=[]
+no_repetidas=[]
+for palabra in lista1:
+    if palabra in lista2:
+        repetidas.append(palabra)
+    else:
+        no_repetidas.append(palabra)
+for palabra in lista2:
+    if not palabra in lista1:
+        no_repetidas.append(palabra)
+print(f"Repetidas: {repetidas}")
+print(f"No repetidas: {no_repetidas}")

@@ -10,8 +10,6 @@ for palabra in lista1:
         repetidas.append(palabra)
     else:
         no_repetidas.append(palabra)
-for palabra in lista2:
-    if not palabra in lista1:
-        no_repetidas.append(palabra)
+        
 print(f"Repetidas: {repetidas}")
 print(f"No repetidas: {no_repetidas}")
