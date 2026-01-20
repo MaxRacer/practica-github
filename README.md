@@ -146,3 +146,11 @@ b. Cantidad de números
 c. Cantidad de letras
 d. Cantidad de mayúsculas
 e. Suma de los valores numéricos
+76. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
+y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
+en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo
+77. A partir de la lista definida en el ejercicio 75, haz que el programa pregunte qué valor se desea 
+eliminar de la lista, siendo únicamente los números los valores permitidos para suprimir
+78. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz 
+que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
+Máximo 3 líneas de código.
