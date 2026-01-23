@@ -154,3 +154,6 @@ eliminar de la lista, siendo únicamente los números los valores permitidos par
 78. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz 
 que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
 Máximo 3 líneas de código.
+79. Utilizando listas, crea un programa que te permita determinar si un número es decimal o no. 
+80. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la 
+lista al azar.
