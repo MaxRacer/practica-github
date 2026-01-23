@@ -168,3 +168,4 @@ Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuac
 Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
 suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
 algún método que permita sumar el contenido de una lista?
+83. ealiza el ejercicio del DNI que encontrarás en el Sway
