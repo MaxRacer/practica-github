@@ -157,3 +157,14 @@ Máximo 3 líneas de código.
 79. Utilizando listas, crea un programa que te permita determinar si un número es decimal o no. 
 80. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la 
 lista al azar.
+81. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al 
+azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine 
+la palabra.
+82. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta 
+que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
+manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así 
+sucesivamente.
+Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuaciones obtenidas. 
+Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
+suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
+algún método que permita sumar el contenido de una lista?
