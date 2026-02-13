@@ -1,6 +1,10 @@
-letra=input("")
-vocales=["aeiouAEIOU"]
+letra=input()
+vocales="aeiouAEIOU"
+if letra.islower():
+    print("lowercase")
+else:
+    print("uppercase")
 if letra in vocales:
-    if letra.isupper():
-        print("vowel")
-        print("uppercase")
+    print("vowel")
+else:
+    print("consonant")
