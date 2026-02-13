@@ -1,0 +1,7 @@
+entrada=input()
+partes=entrada.split()
+a=int(partes[0])
+b=int(partes[1])
+c=int(partes[2])
+maximo=max(a, b, c)
+print(maximo)
