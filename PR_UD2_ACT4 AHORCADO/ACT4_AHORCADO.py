@@ -1,6 +1,5 @@
 import random
 import time
-from datetime import datetime
 Lista_palabrasecreta=[
 "ALONSO","VERSTAPPEN","HAMILTON","LECLERC","NORRIS",
 "SAINZ","RUSSELL","PIASTRI","PEREZ","STROLL"
@@ -61,12 +60,11 @@ while continuar=="S" and len(Lista_palabrasecreta)>0:
         print("HAS PERDIDO")
         print(f"La palabra era: {palabra}")
     aciertos=len(Lista_aciertos)
-    errores
     print("RESUMEN PARTIDA")
     print(f"Palabra secreta: {palabra}")
     print(f"Número de aciertos:{aciertos}")
     print(f"Número de errores: {errores}")
-    print(f"Tiempo: {minutos} min y segundos {segundos}")
+    print(f"Tiempo: {minutos} min y {segundos} segundos")
 
     if len(Lista_palabrasecreta)==0:
         print("No quedan más palabras.")
